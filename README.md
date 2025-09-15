@@ -35,15 +35,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://piattibeach.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home pagina - Piatti Beach
+  <img src="images/Screenshot-Home-pagina-Piatti.png" width="375px" alt="Piatti - Home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/Screenshot-Menu-pagina-Piatti.png" width="375px" alt="Piatti - Menu pagina">
  
 </details>
 
@@ -62,7 +62,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Breakdownschets (week 1)
-
+h
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
