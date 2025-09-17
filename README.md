@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina - Piatti Beach
-  <img src="images/Screenshot-Home-pagina-Piatti.png" width="375px" alt="Piatti - Home pagina">
+  <img src="images/PiattiHome.png" width="375px" alt="Piatti - Home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="images/Screenshot-Menu-pagina-Piatti.png" width="375px" alt="Piatti - Menu pagina">
+  <img src="images/PiattiMenu.png" width="375px" alt="Piatti - Menu pagina">
  
 </details>
 
@@ -56,24 +56,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Content: De taal is duidelijk op de pagina, er zit alleen qua vormgeving niet echt een logica in.
+  Er worden veel verschillende font gebruikts. 
+  Buttons zijn niet allemaal hetzelfde.
+  Een goede HTML structuur is niet aanwezig.
+  Een unique titel per pagina en zoompoort is aanwezig.
+  De screenreader werkt niet goed genoeg. De titels worden voorgelezen, maar er is geen alt text bij de foto's
+  Button en links werken goed. Er zit geen horizontal scrolling op de website.
+  Er zit in de small screen variant niet altijd genoeg wit ruimte tussen de elementen.
+  De headings zijn overzichtelijk, alleen is het voormij niet altijd duidelijk of er nu een h2, h3, h4 of een p wordt gebruikt.
+  Er wordt geen gebruik gemaakt vind list items.
+  De links zijn bijna allemaal duidelijk te vinden, soms zit er een verstopt in een foto.
+  Er is geen dark of high contrast mode.
+  De gebruikte animatie zijn subtiel, ze sliden mooi in het scherm.
+  De color contrast is aanwezig.
+
 
 </details>
 
 
 
 ## Breakdownschets (week 1)
-h
+
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/PiattiHome.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/Nav.png" width="375px" alt="breakdown van de navigatie">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/Form.png" width="375px" alt="Form voor het maken van een reservering">
 
 </details>
 
@@ -93,11 +108,11 @@ h
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Joep 1          | Casper 2          | Yael 3          | student 4        |
+  | ---             | ---               | ---             | ---              |
+  | Fontface/family | Zoekbalk          | Hamburgermenu   | ---              |
+  | ---             | ---               | ---             | ---              |
+  | ...             | ...               | ...             | ...              |
 
 
   ### Verslag van meeting

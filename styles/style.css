@@ -29,3 +29,50 @@
 
 /* jouw code */
 
+header {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	background-color: #F4F0EE;
+}
+
+header img {
+	width: 10em;
+}
+
+header ul {
+	list-style: none;
+	display: flex;
+	color: red;
+	gap: 12px;
+	font-weight: bold;
+}
+
+.logo {
+	width: 200px;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	background-color: #a82c24;
+	color: white;
+}
+
+img {
+	width: 10em;
+}
+section {
+	background-color: #ffffff;
+}
+
+section article {
+	display: grid;
+
+}
+
+footer {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
