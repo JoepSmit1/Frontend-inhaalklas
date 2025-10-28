@@ -1,0 +1,102 @@
+:root {
+    --zwart: #282828;
+    --beige: #CAB8A2;
+    --grijs: #928781;
+    --rood: #AF4B2F;
+    --e-global-color-9670681: #E8E1D8;
+    --white: #F4F0EE;
+    --wit: #FFFFFF;
+    --zwartj: #AF4B2F00;
+    --donkerrood: #A62C21;
+    --bank: #DBBB9CAD;
+    --kleur: #E8E1D8;
+    --Navigatie: #dfc7b0;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        --zwart: #282828;
+        --beige: #CAB8A2;
+        --grijs: #928781;
+        --rood: #AF4B2F;
+        --e-global-color-9670681: #E8E1D8;
+        --white: #F4F0EE;
+        --wit: #FFFFFF;
+        --zwartj: #AF4B2F00;
+        --donkerrood: #A62C21;
+        --bank: #DBBB9CAD;
+        --kleur: #E8E1D8;
+    }
+}
+
+
+
+@font-face {
+	font-family: "anton";
+	src: url("fonts/anton.woff2");
+  }
+
+@font-face {
+	font-family: "archivo";
+	src: url("fonts/archivo.woff2");
+}
+
+@font-face { 
+	font-family: "beba";
+	src: url("fonts/beba.woff2");
+}
+
+@font-face {
+	font-family: "inter";
+	src: url("fonts/inter.woff2");
+}
+
+@font-face {
+	font-family: "mem";
+	src: url("fonts/mem.woff2");
+}
+
+@font-face {
+	font-family: "mont";
+	src: url("fonts/mont.woff2");
+}
+
+@font-face {
+	font-family: "robot";
+	src: url("fonts/roboto1.woff2");
+}
+
+@font-face {
+	font-family: "roboto";
+	src: url("fonts/roboto2.woff2");
+}
+
+html {
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* https://css-tricks.com/how-to-create-a-skip-to-content-link/ */
+.skip-link {
+	background: #a62c21;
+	color: #fff;
+	font-weight: 700;
+	left: -999em;
+	top: 2em;
+	padding: 10px;
+	position: absolute;
+	transform: translateY(0%);
+  }
+  
+  .skip-link:focus {
+	left: 0em;
+	transform: translateY(100%);
+  }
+
+  .skip-link {
+	/* Same as  before */
+	transition: transform 0.3s;
+  }

@@ -3,69 +3,93 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Joep Smit">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Piatti, Italian Restaurant Zandvoort - piattibeach.com</title>
 
-	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/styleAlgemeen.css" rel="stylesheet">
+	<link href="styles/styleHoofd.css" rel="stylesheet">
 
 	<link rel="icon" type="image/svg+xml" href="images/favicon-32x32.png">
 </head>
 
 <body>
 	<header>
-		<img class="logo" src="images/PIATTI-Logo-Rood.png" alt="Piatti Logo">
-	
-		<ul>
-			<li><a href="#"></a>Home</li>
-			<li><a href="#"></a>Menu</li>
-			<li><a href="#"></a>Events</li>
-			<li><a href="#"></a>Work at Piatti</li>
-			<li><a href="#"></a>Shop</li>
-			<li><a href="#"></a>Contact</li>
-		</ul>
-	
-		<button>Book your table</button>
+		<a class="skip-link" href="#main">Skip to content</a>
+		<h1 class="visually-hidden">Piatti, Italian Restaurant Zandvoort</h1>
+			<nav>
+				<img src="images/PIATTI-Logo-Rood.png" alt="Piatti Logo">
+
+				<button aria-hidden="true"><img src="images/burger-menu-svgrepo-com.svg" alt="Hamburger menu"/></button>
+				<ul>
+					<li>
+						<a href="index.html">HOME</a>
+					</li>
+					<li>
+						<a href="#">MENU</a>
+					</li>
+					<li>
+						<a href="event.html">EVENTS</a>
+					</li>
+					<li>
+						<a href="#">WORK AT PIATTI</a>
+					</li>
+					<li>
+						<a href="#">SHOP</a>
+					</li>
+					<li>
+						<a href="#">CONTACT</a>
+					</li>
+				</ul>
+				<button>
+					<svg class="e-font-icon-svg e-eicon-bag-solid" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M333 292L333 208C339 100 397 43 501 43 605 43 662 100 667 209V292H750C796 292 833 329 833 375V875C833 921 796 958 750 958H250C204 958 167 921 167 875V375C167 329 204 292 250 292H333ZM375 292H625L625 210C622 125 582 85 501 85 420 85 380 125 375 209L375 292Z"></path></svg>
+					<span>0</span>
+				</button>
+				<button>Book your table</button>
+		</nav>
 	</header>
 
 	<main>
+		<section>
 		<img src="images/Foto-1-Homepagina.jpg" alt="Foto van bediening die wijn wilt ingeschenken">
 		<img src="images/Foto-2-Homepagina.jpg" alt="Foto van dinerende mensen bij piatti">
 
 		<h2>OUR RESTAURANT IS OPEN AND READY TO MEET YOU</h2>
 
 		<ul>
-		<li><strong>MON-THU:</strong> 09.00 - 21.00</li>
+		<li><strong>MON-THU:</strong> 11:30 - 21.00</li>
 		<li><strong>FRI-SAT:</strong> 09.00 - 22.00</li>
 		<li><strong>SUN:</strong> 09.00 - 21.00</li>
 		</ul>
+		</section>
 
-		<section>
-			<h2>WORK AT PIATTI</h2>
-			<h3>JOIN THE PIATTI BEACH CREW!</h3>
 
-			<p>BAR - BEDIENING - RUNNERS</p>
-			<p>ZELFSTANDIG WERKENDE KOKS -  SOUS-CHEF - PIZZA CHEFS</p>
-			<p>We're growing and looking for talented stars to join our team! If you're passionate about great food and ready for a fun environment, we want to hear from you.</p>
-			<p>Mail: info@piattibeach.com</p>
-
-			<button>contact</button>
-
-			<h4>WERKEN BIJ PIATTI</h4>
-			<p>Ben jij enthousiast over heerlijk eten en uitstekende service? PIATTI is op zoek naar gepassioneerde en toegewijde individuen om ons team te versterken! We zijn op zoek naar medewerkers voor zowel het restauarnt als de keuken.</p>
-
-			<h4>Wat Wij Bieden:</h4>
-			<p>Een levendige en gastvrije werkomgeving aan het strand</p>
-			<p>Kansen voor professionele groei en ontwikkeling</p>
-			<p>De kans om te werken met een gepassioneerd en toegewijd team</p>
-
-			<p>Als jij gedreven wordt door een liefde voor culinaire perfectie en uitstekende service, willen wij jou ontmoeten! Stuur je cv en een korte introductie naar</p>
-			<p>info@piattibeach.com</p>
-
-			<p><a href="">#Joinourteam #Piatti #Nowhiring</a></p>
-			<p><a href="">#RestaurantJobs</a></p>
-			<img src="images/Eigenaar-Piatti.jpg" alt="Foto van de eigenaar van Piatti">
+		<section id="main">
+				<h2>WORK AT PIATTI</h2>
+				<h3>JOIN THE PIATTI BEACH CREW!</h3>
+	
+				<p>BAR - BEDIENING - RUNNERS</p>
+				<p>ZELFSTANDIG WERKENDE KOKS -  SOUS-CHEF - PIZZA CHEFS</p>
+				<p>We're growing and looking for talented stars to join our team! If you're passionate about great food and ready for a fun environment, we want to hear from you.</p>
+				<p>Mail: info@piattibeach.com</p>
+	
+				<button>contact</button>
+	
+				<h4>WERKEN BIJ PIATTI</h4>
+				<p>Ben jij enthousiast over heerlijk eten en uitstekende service? PIATTI is op zoek naar gepassioneerde en toegewijde individuen om ons team te versterken! We zijn op zoek naar medewerkers voor zowel het restauarnt als de keuken.</p>
+	
+				<h4>Wat Wij Bieden:</h4>
+				<p>Een levendige en gastvrije werkomgeving aan het strand</p>
+				<p>Kansen voor professionele groei en ontwikkeling</p>
+				<p>De kans om te werken met een gepassioneerd en toegewijd team</p>
+	
+				<p>Als jij gedreven wordt door een liefde voor culinaire perfectie en uitstekende service, willen wij jou ontmoeten! Stuur je cv en een korte introductie naar</p>
+				<p>info@piattibeach.com</p>
+	
+				<p><a href="#">#Joinourteam #Piatti #Nowhiring</a></p>
+				<p><a href="#">#RestaurantJobs</a></p>
+				<img src="images/Eigenaar-Piatti.jpg" alt="Foto van de eigenaar van Piatti">
 		</section>
 
 		<section>
@@ -92,6 +116,71 @@
 		</section>
 		
 		<section>
+			<h2>Book your table</h2>
+		<form>
+			<p>Piatti</p>
+			<label for="Datum">Datum</label>
+				<input id="Datum" type="date" name="date"/>
+	
+			<label for="Volwassen">Volwassen</label>
+			<select name="Volwassen" id="Volwassen">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="meer dan 8">>8</option>
+			</select>
+				<!-- <input type="number" name="Volwassen" min="1" max="8" /> -->
+			<label for="Kinderen">Kinderen</label>
+			<select name="Kinderen" id="Kinderen">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+			</select>
+			<label for="Tijd">Tijd</label>
+			<select name="Tijd" id="Tijd">
+				<option value="12:00">12:00</option>
+				<option value="12:15">12:15</option>
+				<option value="12:30">12:30</option>
+				<option value="12:45">12:45</option>
+				<option value="13:00">13:00</option>
+				<option value="13:15">13:15</option>
+				<option value="13:30">13:30</option>
+				<option value="13:45">13:45</option>
+				<option value="14:00">14:00</option>
+				<option value="14:15">14:15</option>
+				<option value="14:30">14:30</option>
+				<option value="14:45">14:45</option>
+				<option value="17:00">17:00</option>
+				<option value="17:15">17:15</option>
+				<option value="17:30">17:30</option>
+				<option value="17:45">17:45</option>
+				<option value="18:00">18:00</option>
+				<option value="18:15">18:15</option>
+				<option value="18:30">18:30</option>
+				<option value="18:45">18:45</option>
+				<option value="19:00">19:00</option>
+				<option value="19:15">19:15</option>
+				<option value="19:30">19:30</option>
+				<option value="19:45">19:45</option>
+				<option value="20:00">20:00</option>
+				<option value="20:15">20:15</option>
+				<option value="20:30">20:30</option>
+				<option value="20:45">20:45</option>
+				<option value="21:00">21:00</option>
+				<option value="21:15">21:15</option>
+			</select>
+			<button>Reserveer</button>
+		</form>
 			<img src="images/BookYourTable1.jpg" alt="Foto van een ingedekte tafel">
 			<img src="images/BookYourTable2.jpg" alt="Foto van een ingedekte tafel met eten">
 		</section>
@@ -100,25 +189,25 @@
 			<h2>A SLICE OF PIATTI AT HOME</h2>
 			<article>
 				<img src="images/PiattiSweater.jpg" alt="Foto van de piatti sweater">
-				<h5>Unisex</h5>
-				<h3>PIATTI SWEATER</h3>
-				<h4>€59,95 incl. BTW</p>
+				<h3>Unisex</h5>
+				<h4>PIATTI SWEATER</h3>
+				<h5>€59,95 incl. BTW</p>
 				<button>Opties Selecteren</button>
 			</article>
 
 			<article>
 				<img src="images/Bambini.jpg" alt="Foto van het piatti kinder shirt">
-				<h5>Kids</h5>
-				<h3>BAMBINI</h3>
-				<h4>€24,95 incl. BTW</p>
+				<h3>Kids</h5>
+				<h4>BAMBINI</h3>
+				<h5>€24,95 incl. BTW</p>
 				<button>Toevoegen aan winkelwagen</button>
 			</article>
 
 			<article>
 				<img src="images/TheBag.jpg" alt="Foto van de piatti totebag">
-				<h5>Accessoires</h5>
-				<h3>THE BAG</h3>
-				<h4>€14,95 incl. BTW</p>
+				<h3>Accessoires</h5>
+				<h4>THE BAG</h3>
+				<h5>€14,95 incl. BTW</p>
 				<button>Toevoegen aan winkelwagen</button>
 			</article>
 		</section>
@@ -146,43 +235,64 @@
 		</section>
 
 		<section>
-			<p>TREAT YOURSELF</p>
 			<h2>LET US TAKE CARE OF YOU</h2>
+			<p>TREAT YOURSELF</p>
 			<img src="images/schaduw.jpg" alt="Foto van schaduw op het teras">
 		</section>
 	</main>
 
 	<footer>
 		<img class="logo" src="images/PIATTI-Logo-Rood.png" alt="Piatti Logo">
-		<article>
-			<h3>VISIT US</h3>
-			<p>Boulevard Barnaart 23,</p>
-			<p>2041 KB Zandvoort</p>
-			<p>The Netherlands</p>
-		</article>
-
-		<article>
-			<h3>OPENING HOURS</h3>
-			<ul>
-				<li><strong>MON-THU:</strong> 09.00 - 21.00</li>
-				<li><strong>FRI-SAT:</strong> 09.00 - 22.00</li>
-				<li><strong>SUN:</strong> 09.00 - 21.00</li>
-			</ul>
-		</article>
-
-		<article>
-			<h3>CONTACT</h3>
-			<p>reservations@piattibeach.com</p>
-			<p>events@piattibeach.com</p>
-			<p>info@piattibeach.com</p>
-			<p>tel: +31 6 16 99 60 14</p>
-		</article>
-
-		<article>
-			<h3>NEWSLETTER</h3>
-			<p>Stay up to date with our latest news, receive exclusive deals, and more</p>
-		</article>
-
+	<!-- <ul> -->
+		<!-- <li> -->
+			<section>
+				<h3>VISIT US</h3>
+				<p>Boulevard Barnaart 23,</p>
+				<p>2041 KB Zandvoort</p>
+				<p>The Netherlands</p>
+			</section>
+		<!-- </li> -->
+		<!-- <li> -->
+			<section>
+				<h3>OPENING HOURS</h3>
+				<ul>
+					<li><strong>MON-THU:</strong> 11:30 - 21.00</li>
+					<li><strong>FRI-SAT:</strong> 09.00 - 22.00</li>
+					<li><strong>SUN:</strong> 09.00 - 21.00</li>
+				</ul>
+			</section>
+		<!-- </li> -->
+		<!-- <li> -->
+			<section>
+				<h3>CONTACT</h3>
+				<p>reservations@piattibeach.com</p>
+				<p>events@piattibeach.com</p>
+				<p>info@piattibeach.com</p>
+				<p>tel: +31 6 16 99 60 14</p>
+			</section>
+		<!-- </li> -->
+		<!-- <li>	 -->
+			<section>
+				<h3>NEWSLETTER</h3>
+				<p>Stay up to date with our latest news, receive exclusive deals, and more</p>
+				<input type="search"
+				placeholder="Name"/>
+				
+				<input type="search"
+				placeholder="Enter Your Email Addres"/>
+				<button>Subscribe -></button>
+			</section>
+		<!-- </li> -->
+	<!-- </ul> -->
+	<ul>
+		<li>
+			<button>Privacy Policy</button>
+		</li>
+		<li>
+			<button>&Algemene Voorwaarden</button>
+		</li>
+	</ul>
+	
 	</footer>
 
 	<script defer src="scripts/script.js"></script>

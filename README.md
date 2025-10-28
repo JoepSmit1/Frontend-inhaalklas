@@ -118,6 +118,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
+Per pagina 1 style sheat dus 2 css
+Een gezamelijke pagina.
+boven in moet de gezamelijke style sheet.
+Hamburgermenu is een button. 
+De nav in de header is een unorderd list.
+<a href="#"> learn more about Yael</a> . visually hidden
+h1 toevoegen met visually hiden. a11y
+form voor newsletter
+
+
+
   - punt 1
   - punt 2
   - nog een punt
@@ -141,10 +152,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Casper         | Joep               | Yael         | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | HamburgerMenu  | HamburgerMenu      | Nav bar      | en dan ik dat    |
+  | ...            | Transitie nav bar  | ...          | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -188,11 +199,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Yael           | Casper             | Joep               | student 4        |
+  | ---            | ---                | ---                | ---              |
+  | Hamburger Menu | Hamburger Menu     | Hamburger Menu     | en dan ik dat    |
+  | ...            | ...                | Input              | dit wil ik zeker |
+  | ...            | ...                | Foto Overlay       | ...              |
 
 
   ### Verslag van meeting
